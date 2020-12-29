@@ -1,3 +1,62 @@
-h1{
-    color: red;
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 1rem;
+    background-color: hsl(197, 38%, 20%);
+    color: white;
+}
+section, header{
+    display: flex;
+}
+section .left-content{
+    padding: 1rem 2.5rem;
+}
+section .right-content{
+    padding-top: 2.5rem;
+}
+.left-content{
+    width: 35%;
+}
+.right-content{
+    width: 65%;
+}
+#myAvatar{
+    display: block;
+    margin: 1rem auto;
+    border-radius: 50%;
+}
+.infor ul li{
+    list-style-type: none;
+}
+.icon{
+    color:#f69b12;
+    width: 50px;
+    display: inline-block;
+}
+.txt-yellow{
+    color:#f69b12;
+}
+.title-number{
+    font-size: 50px;
+    padding-right: 20px;
+}
+.title-text{
+    background-color: hsl(197, 38%, 20%);
+    color: white;
+    font-size: 20px;
+    padding-left: 1rem;
+}
+.bold{
+    font-weight: bold;
+}
+.description{
+    padding-top: 1rem
+}
+.skill ul{
+    padding-left: 1rem;
 }
