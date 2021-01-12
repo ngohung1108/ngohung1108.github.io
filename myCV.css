@@ -80,6 +80,9 @@ section .right-content{
     width: 50px;
     display: inline-block;
 }
+footer > .row{
+    padding: 0 1.5rem;
+}
 @media (max-width: 576px){
     .container{
         padding: 0 !important;
@@ -115,5 +118,8 @@ section .right-content{
     }
     .icon{
         width: 30px;
+    }
+    footer > .row{
+        padding: 0;
     }
 }
