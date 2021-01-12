@@ -5,12 +5,16 @@ body{
     padding: 0;
     margin: 0;
 }
-header{
+header, footer{
     padding: 1rem;
     background-color: hsl(197, 38%, 20%);
     color: white;
 }
-section, header{
+.name-mobile{
+    display: none;
+    text-align: center;
+}
+section{
     display: flex;
 }
 section .left-content{
@@ -32,6 +36,9 @@ section .right-content{
 }
 .infor ul li{
     list-style-type: none;
+}
+.infor-des{
+    word-wrap: break-word;
 }
 .icon{
     color:#f69b12;
@@ -59,4 +66,54 @@ section .right-content{
 }
 .skill ul{
     padding-left: 1rem;
+}
+.list-exp{
+    padding-left: 0;
+    list-style-position: inside;
+}
+.icon-star{
+    color: #f69b12;
+    width: 30px;
+    display: inline-block;
+}
+.skill-lang{
+    width: 50px;
+    display: inline-block;
+}
+@media (max-width: 576px){
+    .container{
+        padding: 0 !important;
+    }
+    .name-pc{
+        display: none;
+    }
+    .name-mobile{
+        display: block;
+    }
+    .infor ul{
+        padding-left: 0;
+    }
+    section {
+        display: block;
+        padding: 0 0.75rem;
+    }
+    section .right-content, section .left-content{
+        width: 100%;
+    }
+    section .left-content{
+        padding: 0;
+    }
+    section .right-content{
+        padding-top: 0.5rem;
+    }
+    .title-number{
+        font-size: 35px;
+        padding-right: 10px;
+    }
+    h2{
+        font-size: 22px !important;
+    }
+    .icon{
+        width: 30px;
+    }
 }
